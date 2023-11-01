@@ -3,7 +3,7 @@ BEGIN;
 -- Create table monthly_aggregates, with schema.
 CREATE TABLE monthly_aggregates (
     YearMonth VARCHAR(14),
-    SalesInstances INT,
+    OrderCount INT,
     DiscountValue DOUBLE,
     NetSales DOUBLE,
     NetProfit DOUBLE
@@ -11,10 +11,10 @@ CREATE TABLE monthly_aggregates (
 
 
 -- Populate monthly_aggregates table with query from orders.
-INSERT INTO monthly_aggregates (YearMonth, SalesInstances, DiscountValue, NetSales, NetProfit)
+INSERT INTO monthly_aggregates (YearMonth, OrderCount, DiscountValue, NetSales, NetProfit)
 SELECT
     CONCAT(CAST(OrderYear AS CHAR), '-', LPAD(CAST(OrderMonth AS CHAR), 2, '0')) AS YearMonth,
-    COUNT(Sales) AS SalesInstances,
+    COUNT(Sales) AS OrderCount,
     SUM(Discount) AS DiscountValue,
     SUM(Sales) AS NetSales,
     SUM(Profit) AS NetProfit
