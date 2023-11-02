@@ -1,14 +1,13 @@
 BEGIN;
 
--- Create table monthly_aggregates, with schema.
-CREATE TABLE categorical_aggregates (
+CREATE TABLE categories (
     Category TEXT,
     OrderVolume INT,
     SalesVolume DOUBLE,
     ProfitVolume DOUBLE
 );
 
-INSERT INTO categorical_aggregates (Category, OrderVolume, SalesVolume, ProfitVolume)
+INSERT INTO categories (Category, OrderVolume, SalesVolume, ProfitVolume)
 SELECT
     Category,
     COUNT(Category) AS OrderVolume,
