@@ -13,11 +13,10 @@ Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has b
 
 ## Goals
 
-* Aggregate Sales Data
-* Correlations between sales and external factors.
-* Identify top-performing products or regions.
-* Investigate opportunities for cross- and up-selling.
-
+* Aggregate Sales Data 
+* Identify top-performing products and regions.
+* Investigate opportunities for prescriptive analytics
+* Examine forecasting options
 
 ## Citations
 
