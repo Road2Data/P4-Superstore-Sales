@@ -9,6 +9,8 @@ From the [Kaggle Data Card](https://www.kaggle.com/datasets/vivek468/superstore-
 
 Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has been converted to a MySQL database (superstore) - a decision made primarily to encourage learning SQL and working with relational databases. Queries are made in filed scripts, which may alter existing tables or create new ones, but aggregrated data may be temporarily held in Pandas DataFrames to make visualization and further analysis easier. 
 
+**This project is ongoing, and it's theoretical point of completion is yet unknown.**
+
 ## Goals
 
 * Aggregate Sales Data
