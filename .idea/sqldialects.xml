@@ -2,8 +2,8 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/9207ee8c-6415-4a0a-afbe-44fe53808683/console.sql" dialect="SQLite" />
-    <file url="file://$PROJECT_DIR$/MySQL Scripts/categorical_finances.sql" dialect="MySQL" />
-    <file url="file://$PROJECT_DIR$/MySQL Scripts/copiers.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/MySQL Scripts/categorical_financials.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/MySQL Scripts/feature_engineering.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/MySQL Scripts/monthly_financials.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="SQLite" />
   </component>

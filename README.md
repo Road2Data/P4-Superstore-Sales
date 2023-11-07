@@ -7,6 +7,17 @@ From the [Kaggle Data Card](https://www.kaggle.com/datasets/vivek468/superstore-
 
 ## Workflow
 
-Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has been converted to a MySQL database (superstore) - a decision made primarily to encourage learning SQL and working with relational databases. 
+Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has been converted to a MySQL database (superstore) - a decision made primarily to encourage learning SQL and working with relational databases. Queries are made in filed scripts, which may alter existing tables or create new ones, but aggregrated data may be temporarily held in Pandas DataFrames to make visualization and further analysis easier. 
+
+## Goals
+
+* Aggregate Sales Data
+* Correlations between sales and external factors.
+* Identify top-performing products or regions.
+* Investigate opportunities for cross- and up-selling.
+
 
 ## Citations
+
+* Chowdhury, Vivek. “Superstore Dataset.” Kaggle, February 17, 2022. 
+* Martin, Michael. “Sample - Superstore.” Tableau Community, April 29, 2020. 
