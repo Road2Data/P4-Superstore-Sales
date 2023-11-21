@@ -1,3 +1,6 @@
 # Remove secure files, clutter from public view.
-.env
 __pycache__
+
+.idea
+
+.env
