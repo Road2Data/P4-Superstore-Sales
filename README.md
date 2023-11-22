@@ -7,9 +7,10 @@ From the [Kaggle Data Card](https://www.kaggle.com/datasets/vivek468/superstore-
 
 ## Workflow
 
-Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has been converted to a MySQL database (superstore) - a decision made primarily to encourage learning SQL and working with relational databases. Queries are made in filed scripts, which may alter existing tables or create new ones, but aggregrated data may be temporarily held in Pandas DataFrames to make visualization and further analysis easier. 
+Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has been converted to a MySQL database (superstore). Queries are made in filed scripts, which may alter existing tables or create new ones, but aggregrated data may be temporarily held in Pandas DataFrames to make visualization and further analysis easier. 
 
-**This project is ongoing, and it's theoretical point of completion is yet unknown.**
+**This project is an ongoing.** 
+Its purpose is twofold: learn by doing, and provide insights along the way.
 
 ## Goals
 
@@ -21,4 +22,5 @@ Prior to any aggregation or analysis, the Excel Workbook "superstore.xlsx" has b
 ## Citations
 
 * Chowdhury, Vivek. “Superstore Dataset.” Kaggle, February 17, 2022. 
-* Martin, Michael. “Sample - Superstore.” Tableau Community, April 29, 2020. 
+* Martin, Michael. “Sample - Superstore.” Tableau Community, April 29, 2020.
+* Wikipedia contributors. “Augmented Dickey–Fuller Test.” Wikipedia, September 19, 2023. 
