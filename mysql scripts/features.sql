@@ -4,7 +4,6 @@ CREATE TABLE features
 (
     OrderYear  INT,
     OrderMonth INT,
-    ShipMode   TEXT,
     DaysToShip INT,
     Segment    TEXT,
     Region     TEXT,
@@ -14,10 +13,9 @@ CREATE TABLE features
     Profit     REAL
 );
 
-INSERT INTO features(OrderYear, OrderMonth, ShipMode, DaysToShip, Segment, Region, State, Department, Division, Profit)
+INSERT INTO features(OrderYear, OrderMonth, DaysToShip, Segment, Region, State, Department, Division, Profit)
 SELECT OrderYear,
        OrderMonth,
-       `Ship Mode`      AS ShipMode,
        DaysToShip,
        Segment,
        Region,
