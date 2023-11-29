@@ -2,6 +2,6 @@
 <project version="4">
   <component name="SqlDialectMappings">
     <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/9207ee8c-6415-4a0a-afbe-44fe53808683/console.sql" dialect="SQLite" />
-    <file url="PROJECT" dialect="SQLite" />
+    <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>

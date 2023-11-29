@@ -1,8 +1,10 @@
 import os
 from dotenv import load_dotenv
 
+
 def generate_url():
     """Generate the URL object necessary for a SQL Alchemy Engine."""
+
     # Load credentials from .env file, synthesize URL object, and SQLAlchemy engine.
     load_dotenv()
 
