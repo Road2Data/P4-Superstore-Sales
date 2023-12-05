@@ -23,7 +23,5 @@ Its purpose is twofold: learn by doing, and provide insights along the way.
 
 * Box, George E.P., Gwilym M. Jenkins, Gregory C. Reinsel, and Greta M. Ljung. “9 Analysis of Seasonal Time Series.” Essay. In *Time Series Analysis: Forecasting and Control*, 5th ed., 305–51. Hoboken, New Jersey: John Wiley &amp; Sons, Inc., 2016.
 * Chowdhury, Vivek. “Superstore Dataset.” Kaggle, February 17, 2022. 
-* Hyndman, R.J., & Athanasopoulos, G. (2018) *Forecasting: principles and practice*, 2nd edition, OTexts: Melbourne, Australia. OTexts.com/fpp2.
-* Keany, Eoghan. “The Ultimate Guide for Clustering Mixed Data.” Medium, November 30, 2021. 
 * Martin, Michael. “Sample - Superstore.” Tableau Community, April 29, 2020.
 * Wikipedia contributors. “Augmented Dickey–Fuller Test.” Wikipedia, September 19, 2023. 
