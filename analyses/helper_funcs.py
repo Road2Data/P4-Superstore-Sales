@@ -1,5 +1,7 @@
 import os
 from dotenv import load_dotenv
+import pandas as pd
+import scipy.stats as st
 
 
 def generate_url():
