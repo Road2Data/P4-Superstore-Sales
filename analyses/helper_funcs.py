@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+import pandas as pd
 
 
 def generate_url():
@@ -31,3 +32,5 @@ def aesthetic_split(in_str: str) -> str:
         result_str += char
 
     return result_str
+
+#%%
