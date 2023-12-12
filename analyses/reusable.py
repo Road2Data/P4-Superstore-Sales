@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
-import pandas as pd
-
+import scipy.stats as stats
 
 def generate_url():
     """Generate the URL object necessary for a SQL Alchemy Engine."""
@@ -33,4 +32,13 @@ def aesthetic_split(in_str: str) -> str:
 
     return result_str
 
-#%%
+
+def check_normality(col):
+    """Check normality of a given column"""
+    _, p_val = stats.shapiro(col)
+
+    if p_val < 0.05:
+        return False
+    else:
+        return True
+# %%
