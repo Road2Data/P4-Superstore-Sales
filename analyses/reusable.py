@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 import scipy.stats as stats
 
+
 def generate_url():
     """Generate the URL object necessary for a SQL Alchemy Engine."""
 
